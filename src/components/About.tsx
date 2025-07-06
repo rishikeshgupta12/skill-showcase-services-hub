@@ -4,10 +4,10 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const achievements = [
-    { number: "50+", label: "Projects Completed" },
-    { number: "5+", label: "Years Experience" },
-    { number: "30+", label: "Happy Clients" },
-    { number: "24/7", label: "Support Available" }
+    { number: "10+", label: "Projects Completed" },
+    { number: "0-1", label: "Years Experience" },
+    { number: "2", label: "Degrees Pursuing" },
+    { number: "100%", label: "Dedication Level" }
   ];
 
   return (
@@ -17,21 +17,21 @@ const About = () => {
           <div className="animate-fade-in">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience creating 
-              digital solutions that drive business growth. My journey started with a curiosity 
-              about how things work, and it evolved into a career dedicated to solving complex 
-              problems through elegant code.
+              I'm a passionate data scientist pursuing dual degrees - BBA-MBA Integrated 
+              at National Forensics Sciences University, Gandhinagar, and BS in Data Science 
+              at IIT Madras. My journey combines business acumen with technical expertise 
+              in data science and analytics.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              I specialize in modern web technologies and have helped dozens of businesses 
-              transform their ideas into successful digital products. From startups to 
-              established companies, I bring the same level of dedication and expertise to every project.
+              Though I'm a fresher with 0-1 years of experience, I've worked on various 
+              projects that showcase my ability to extract meaningful insights from data, 
+              build predictive models, and create data-driven solutions for real-world problems.
             </p>
             
             <div className="flex flex-wrap gap-2 mb-8">
-              <Badge className="bg-blue-100 text-blue-800">React Expert</Badge>
-              <Badge className="bg-green-100 text-green-800">Node.js Specialist</Badge>
-              <Badge className="bg-purple-100 text-purple-800">UI/UX Focused</Badge>
+              <Badge className="bg-blue-100 text-blue-800">Data Science</Badge>
+              <Badge className="bg-green-100 text-green-800">Machine Learning</Badge>
+              <Badge className="bg-purple-100 text-purple-800">Analytics</Badge>
               <Badge className="bg-orange-100 text-orange-800">Problem Solver</Badge>
             </div>
           </div>

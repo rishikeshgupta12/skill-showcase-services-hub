@@ -4,23 +4,23 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"],
+      title: "Data Science & ML",
+      skills: ["Python", "Machine Learning", "Statistical Analysis", "Data Visualization", "Pandas"],
       color: "bg-blue-100 text-blue-800"
     },
     {
-      title: "Backend Development",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"],
+      title: "Analytics & Tools",
+      skills: ["SQL", "Excel", "Tableau", "Power BI", "R"],
       color: "bg-green-100 text-green-800"
     },
     {
-      title: "Design & Tools",
-      skills: ["Figma", "Adobe Creative Suite", "Git", "Docker", "AWS"],
+      title: "Business & Management",
+      skills: ["Business Analysis", "Project Management", "Strategic Planning", "Market Research"],
       color: "bg-purple-100 text-purple-800"
     },
     {
-      title: "Soft Skills",
-      skills: ["Project Management", "Client Communication", "Problem Solving", "Team Leadership"],
+      title: "Technical Skills",
+      skills: ["Data Mining", "Predictive Modeling", "Data Cleaning", "Statistical Testing"],
       color: "bg-orange-100 text-orange-800"
     }
   ];
@@ -31,7 +31,7 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            A comprehensive toolkit built through years of experience and continuous learning
+            A comprehensive skill set combining data science, business knowledge, and analytical thinking
           </p>
         </div>
         

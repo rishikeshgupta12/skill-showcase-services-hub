@@ -8,28 +8,32 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john@example.com",
-      href: "mailto:john@example.com"
+      value: "rishikesh.gupta@example.com",
+      href: "mailto:rishikesh.gupta@example.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 98765 43210",
+      href: "tel:+919876543210"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/johndoe",
-      href: "https://linkedin.com/in/johndoe"
+      value: "linkedin.com/in/rishikeshgupta",
+      href: "https://linkedin.com/in/rishikeshgupta"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/johndoe",
-      href: "https://github.com/johndoe"
+      value: "github.com/rishikeshgupta",
+      href: "https://github.com/rishikeshgupta"
     }
   ];
+
+  const handleScheduleCall = () => {
+    window.location.href = "mailto:rishikesh.gupta@example.com?subject=Schedule a Call - Data Science Services";
+  };
 
   return (
     <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-700 text-white" id="contact">
@@ -37,7 +41,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? Let's discuss how I can help you achieve your goals.
+            Ready to turn your data into actionable insights? Let's discuss how I can help you solve your data challenges.
           </p>
         </div>
         
@@ -46,12 +50,13 @@ const Contact = () => {
             <div className="animate-fade-in">
               <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-lg opacity-90 mb-8">
-                I'm always excited to take on new challenges and collaborate with innovative teams. 
-                Whether you have a project in mind or just want to chat about possibilities, I'd love to hear from you.
+                I'm excited to take on new data science projects and collaborate with innovative teams. 
+                Whether you need data analysis, machine learning solutions, or business insights, I'd love to help.
               </p>
               <Button 
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-full font-semibold"
+                onClick={handleScheduleCall}
               >
                 Schedule a Call
               </Button>
